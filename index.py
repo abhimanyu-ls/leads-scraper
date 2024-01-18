@@ -4,14 +4,16 @@ import pandas as pd
 
 def main():
     with sync_playwright() as p:
+
+        # Parameters of search
         place = "Mumbai"
         checkindate = "2024-01-30"
         checkoutdate = "2024-02-15"
         adults = 2
         rooms_count = 1
         children = 0
+
         location = place.replace(" ", "+")
-        # print(location)
 
         page_url = f"https://www.booking.com/searchresults.html?ss={location}%2C+India&checkin={checkindate}&checkout={checkoutdate}&group_adults={adults}&no_rooms={rooms_count}&group_children={children}"
         browser = p.chromium.launch(headless=False)

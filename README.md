@@ -26,6 +26,14 @@
 ```
 
 ### 6. Edit the index.py file for preferred location and other data
+```Python
+    place = "Mumbai"
+    checkindate = "2024-01-30"
+    checkoutdate = "2024-02-15"
+    adults = 2
+    rooms_count = 1
+    children = 0
+```
 
 ### 7. Run the program with:
 ```console
