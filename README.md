@@ -3,7 +3,7 @@
 
 ### 1. Clone this repo
 ```console
-~$ git clone https://github.com/abhimanyu-ls/leads-scraper.git
+~$ git clone "https://github.com/abhimanyu-ls/leads-scraper.git"
 ```
 
 // Now you have cloned it so you can see this README.md file in your code editor also
